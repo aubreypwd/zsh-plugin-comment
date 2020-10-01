@@ -2,6 +2,8 @@
 
 Function to add comments to files and folders on macOS.
 
+![Screenshot](http://aubrey.pw/d/2020/1601576759.png)
+
 ## Usage
 
 ```bash
