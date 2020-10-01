@@ -1,6 +1,6 @@
 # `comment`
 
-Add comments to files and folders on macOS.
+Function to add comments to files and folders on macOS.
 
 ## Usage
 
