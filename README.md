@@ -1,10 +1,23 @@
-# My Plugin
+# `comment`
 
-Simple description of your plugin.
+Add comments to files and folders on macOS.
 
 ## Usage
 
 ```bash
+comment <file> "Comment"
+```
+
+E.g.
+
+```bash
+comment my-file.php "This is my comment".
+```
+
+To clear comments, you could've guessed, use:
+
+```bash
+comment my-file.php ""
 ```
 
 ## Install
@@ -12,7 +25,7 @@ Simple description of your plugin.
 Using [antigen](https://github.com/zsh-users/antigen):
 
 ```bash
-antigen bundle github-username/my-plugin@1.0.0
+antigen bundle aubreypwd/zsh-plugin-comment@1.0.0
 ```
 
 ## Development
@@ -20,10 +33,10 @@ antigen bundle github-username/my-plugin@1.0.0
 Install the package on `master`:
 
 ```bash
-antigen bundle github-username/my-plugin
+antigen bundle aubreypwd/zsh-plugin-comment
 ```
 
-...and contribute upstream by working in `$HOME/.antigen/bundles/github-username/plugin-slug`.
+...and contribute upstream by working in `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-comment`.
 
 ---
 
@@ -32,12 +45,3 @@ antigen bundle github-username/my-plugin
 ### 1.0.0
 
 - First version
-
----
-
-## Delete Me
-
-# - [ ] Rename `plugin-slug.plugin.zsh` to match your repo, e.g. `aubreypwd/my-plugin` becomes `my-plugin.plugin.zsh`
-# - [ ] Re-write `README.md` and replace `plugin-slug` with your repo name and `github-username` with your Github username
-
-That's it!
