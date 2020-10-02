@@ -35,7 +35,7 @@ antigen bundle aubreypwd/zsh-plugin-comment@1.0.0
 Install the package on `master`:
 
 ```bash
-antigen bundle aubreypwd/zsh-plugin-comment
+antigen bundle ssh://git@github.com/aubreypwd/zsh-plugin-comment.git
 ```
 
 ...and contribute upstream by working in `$HOME/.antigen/bundles/aubreypwd/zsh-plugin-comment`.
